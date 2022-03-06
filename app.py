@@ -9,6 +9,10 @@ def index():
 def user_page(name):
     return 'User: %s' % name
 
+# @app.route('/')
+# def hello():
+#     return '<h1>Hello Totoro!</h1><img src="http://helloflask.com/totoro.gif">'
+
 name = 'Tian Tian'
 movies = [
 {'title': 'My Neighbor Totoro', 'year': '1988'},
