@@ -16,7 +16,6 @@
 </h2>
 
 {# 使用 length 过滤器获取 movies 变量的长度 #}
-<img alt="Walking Totoro" class="totoro" src="http://helloflask.com/totoro.gif">
 <p>
     {{ movies|length }} Titles
 </p>
@@ -27,6 +26,8 @@
 </li> {# 等同于movie['title'] #}
 {% endfor %} {# 使用 endfor 标签结束 for 语句 #}
 </ul>
+<img alt="Walking Totoro" class="totoro" src="http://helloflask.com/totoro.gif">
+
 <footer>
 <small>&copy; 2018 <a href="http://helloflask.com/tutorial">HelloFlask</a></small>
 </footer>
